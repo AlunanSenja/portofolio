@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #081b29;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    max-width: 1200px;
+    margin: 100px auto 20px auto;
+    padding: 20px;
+  }
+  
+  
+.header {
+    width: 85%;
+    display: flex;
+    padding: 20px 10%;
+    background: transparent;
+    justify-content: space-between;
+    margin-right: 100px;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+
+  .section h2 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* .skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    background: #333;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .bar {
+    height: 100%;
+    background: #00bcd4;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  } */
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icons div {
+    background: #333;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }

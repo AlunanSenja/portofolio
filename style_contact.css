@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(15deg,#154566, #0d2f45, #01070c);
+    color: #fff;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    padding: 20px 10%;
+    background: transparent;
+    justify-content: space-between;
+    margin-right: 100px;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+  /* Main Container */
+  .container {
+    display: flex;
+    justify-content: center; /* Pusatkan card secara horizontal */
+    align-items: center;    /* Pusatkan card secara vertikal */
+    height: calc(100vh - 60px); /* Tinggi layar dikurangi tinggi navbar */
+    padding: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+    margin-top: -10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Left Section */
+  .left {
+    flex: 1;
+    background: url('marmer.jpg') no-repeat center center/cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .left h2 {
+    font-size: 2.5em;
+    color: #fff;
+  }
+  
+  .left p {
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  /* Right Section */
+  .right {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .right h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .right p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
